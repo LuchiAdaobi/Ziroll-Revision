@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cursive;
+  margin-bottom: 2rem;
+  height: 100%;
+  background-color: #ffffff;
+  color: #323030;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.header{
+  background-color: bisque;
+  padding: 1.1rem 2rem;
+  display: flex;
+}
+.header img{
+  width: 30px;
+}
+.logo{
+  font-weight: bold;
+  margin-left: .2rem;
+  margin-right: auto;
+}
+main{
+  padding: 1rem 2rem;
+}
+.form-input{
+ display: flex;
+ gap: 1rem;
+ width: 100%;
+}
+input{
+  border: 1px solid rgb(200, 196, 196);
+  outline: none;
+  width: max-content;
+  border-radius: .2rem;
+  padding: .4rem 1rem;
+  font-family: cursive;
+}
+.form-button{
+  border-radius: .2rem;
+  cursor: pointer;
+  display: block;
+  margin: 1rem auto;
+  width: 100%;
+  background-color: bisque;
+  color: #323030;
+  border: none;
+  font-weight: bold;
+  font-family: cursive;
+  text-align: center;
+  padding:.5rem 2rem;
+  margin-bottom: 4rem;
+}
+.meme-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  margin: auto;
+  position: relative;
+}
+.meme-image img{
+  margin: 2rem auto;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 2rem;
+}
+
+.top {
+    top: 2rem;
+}
+
+@media only screen and (max-width: 786px) {
+  .card-container {
+  padding: 1rem;
+}
+ .travel-card {
+  margin: 3rem;
+  gap: 0rem;
+  flex-wrap: wrap;
+}
+.card-right{
+  height: fit-content;
+  margin-top: .8rem;
+}
+}

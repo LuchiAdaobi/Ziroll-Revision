@@ -1,0 +1,294 @@
+/* Business Card Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cursive;
+  margin: auto;
+  height: 100%;
+  background-color: #282d35;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* background-image: url("./assets/reactjs-icon2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center right; */
+}
+
+img {
+    display: block;
+}
+.container{
+  background-color: rgb(32, 31, 31);
+  border-radius: 15px;
+  margin: 3rem;
+  overflow: hidden;
+  max-width: 480px;
+}
+.info{
+  text-align: center;
+}
+.image{
+  width: 480px;
+  height: 430px;
+  object-fit: cover;
+  margin: 0 auto;
+  margin-bottom: .8rem;
+}
+.role{
+  color: rgb(150, 118, 36);
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1.5em;
+}
+.contact  img{
+  width: 22px;
+  padding-right: .2rem;
+  display: inline-block;
+  margin: 0 auto;
+  justify-self: center;
+  align-self: center;
+}
+.contact .email{
+  background: white;
+  color: #282d35;
+  display: flex;
+  justify-content: center;
+  padding: .5rem 3rem;
+  border-radius: 5px;
+}
+.contact .linkedin{
+  background: #0077AF;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: .5rem 3rem;
+  border-radius: 5px;
+}
+
+.about {
+  margin: 3rem;
+}
+
+section p {
+  margin-top: .8rem;
+}
+
+.footer{
+  background-color: rgb(19, 17, 17);
+  padding: 1rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer img{
+  width: 22px;
+  filter: grayscale(100%);
+}
+
+.footer img:hover{
+  /* filter: contrast(200%); */
+  filter: drop-shadow(0px 0px 2px black) invert(75%);
+}
+
+
+/* Airbnb Xperience Clone */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cursive;
+  margin-bottom: 2rem;
+  height: 100%;
+  background-color: #e5e5e5;
+  color: #423f3f;
+}
+img {
+  display: block;
+}
+section {
+  padding: 0 2.5rem;
+}
+.nav {
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image {
+  margin: 3rem auto;
+}
+.hero-text h1 {
+  margin-bottom: 1rem;
+  color: #222222;
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 3rem;
+}
+.card {
+  position: relative;
+  margin: 2rem 0;
+  width: 200px;
+  height: 270px;
+  font-size: 12px;
+}
+.card-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.card-badge {
+  position: absolute;
+  top: .5rem;
+  left: 3rem;
+  text-transform: uppercase;
+  padding: .4rem;
+  background-color: #ffffff;
+  border-radius: .3rem;
+}
+.card-info {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0.5rem 0;
+}
+.card-star {
+  height: 14px;
+}
+.card-title {
+  margin-bottom: 0.3rem;
+}
+.cost {
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+.location {
+  color: #848282;
+}
+@media only screen and (max-width: 810px) {
+  .hero-image {
+    max-width: 480px;
+  }
+  .card {
+    margin-bottom: 5rem;
+    width: 280px;
+    height: 390px;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  .hero-image {
+    max-width: 350px;
+  }
+}
+
+
+/* Travel Journal */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cursive;
+  margin-bottom: 2rem;
+  height: 100%;
+  background-color: #ffffff;
+  color: #423f3f;
+}
+img {
+  display: block;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 1rem;
+  background-color: salmon;
+  font-weight: bold;
+}
+.globe {
+  width: 45px;
+}
+.card-container {
+  padding: 2rem;
+}
+.travel-card {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin: 3rem ;
+  gap: 1.5rem;
+  /* flex-wrap: wrap; */
+}
+.card-image {
+  width: 320px;
+  height: 400px;
+  border-radius: 0.7rem;
+  object-fit: cover;
+}
+.pin {
+  width: 10px;
+}
+.card-right{
+  height: 350px;
+}
+.card-right-small {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.card-right-small a {
+  color: gray;
+}
+.title{
+  margin-top: .3rem;
+}
+.date{
+  margin: 1rem 0 .2rem 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+hr {
+  background-color: rgb(243, 239, 239);
+  height: 2px;
+  border: none;
+}
+
+@media only screen and (max-width: 786px) {
+  .card-container {
+  padding: 1rem;
+}
+ .travel-card {
+  margin: 3rem;
+  gap: 0rem;
+  flex-wrap: wrap;
+}
+.card-right{
+  height: fit-content;
+  margin-top: .8rem;
+}
+}
+
+/* Meme Generator */
